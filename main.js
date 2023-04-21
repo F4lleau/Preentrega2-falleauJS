@@ -10,7 +10,7 @@ function calcular(monto, cuotas) {
     return monto * (1 + interes[cuotas]);
   }
 
-var monto, cuotas, montoDevolver, valorCuota, cliente;
+let monto, cuotas, montoDevolver, valorCuota, cliente;
 
 while (true){
 
